@@ -1,0 +1,291 @@
+{ 
+    "intents" : [
+        {
+            "tag" : "greetings",
+            "patterns" : [
+                "Hii",
+                "Hello",
+                "Heyy",
+                "Can you help me?"
+            ],
+            "responses" : [
+                "Hello! How may I help you?",
+                "How can I assist you?",
+                "Welcome, what queries do you have?"
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "about",
+            "patterns" : [
+                "What is colon cancer?",
+                "What is colon adenocarcinoma?",
+                "Can you give more details about colon adenocarcinoma?",
+                "Information about colon adenocarcinoma"
+            ],
+            "responses" : [
+                "Colon cancer is a disease in which malignant (cancer) cells form in the tissues of the colon. Sometimes abnormal growths, called polyps, form in the colon or rectum. Over time, some polyps may turn into cancer.",
+                "The condition known as colon adenocarcinoma arises when cancer cells proliferate within the tissues of the colon, frequently accompanied by the presence of polyps in the colon or rectum, some of which may undergo malignant transformation.",
+                "Malignant growths within the colon tissue characterize colon cancer, often preceded by the emergence of polyps in the colon or rectum, which have the potential to transition into cancerous cells with the passage of time.",
+                "The onset of colon adenocarcinoma involves the formation of malignant cells within the colon tissue, often accompanied by the development of polyps in the colon or rectum, which can evolve into cancerous lesions over time."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "curable",
+            "patterns" : [
+                "Can we treat colon cancer?",
+                "Is it possible to recover from colon adenocarcinoma?",
+                "Can we beat colon adenocarcinoma?"
+            ],
+            "responses" : [
+                "Yes, colon cancer can be treated and one can fully recover from it.",
+                "Colon adenocarcinoma is curable. With proper treatment, one can overcome this disease."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "risk_factors",
+            "patterns" : [
+                "What are the risk factors associated with it?",
+                "Can you list the potential risk factors for colon adenocarcinoma?",
+                "What are the known risk elements linked to colon adenocarcinoma?"
+            ],
+            "responses" : [
+                "Your risk of getting colon cancer increases as you get older. Other risk factors include having inflammatory bowel disease such as Crohn's disease or ulcerative colitis, a personal or family history of colon cancer or colorectal polyps, a genetic syndrome such as familial adenomatous polyposis (FAP). Lifestyle factors may also contribute to the risk such as lack of regular physical activity, a diet low in fruit and vegetables, a low-fiber and high-fat diet, or a diet high in processed meats.",
+                "As you age, your risk of colon cancer increases, and additional factors such as inflammatory bowel diseases like Crohn's disease or ulcerative colitis, a personal or family history of colon cancer or colorectal polyps, and genetic syndromes like familial adenomatous polyposis (FAP) further elevate this risk. Lifestyle behaviors, including inadequate physical activity, diets low in fruits and vegetables, high-fat and low-fiber dietary patterns, or regular consumption of processed meats, also play a role in raising the risk.",
+                "The likelihood of developing colon cancer rises with age, alongside factors like inflammatory bowel diseases such as Crohn's disease or ulcerative colitis, a personal or familial history of colon cancer or colorectal polyps, and genetic conditions like familial adenomatous polyposis (FAP). Lifestyle choices, such as insufficient physical activity, a diet lacking in fruits and vegetables, low-fiber and high-fat dietary habits, or frequent consumption of processed meats, may also contribute to increased risk."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "symptoms",
+            "patterns" : [
+                "What are the common symptoms of colon adenocarcinoma?",
+                "Can you list the usual symptoms of colon adenocarcinoma?",
+                "Can you describe the typical symptoms people experience when they have colon adenocarcinoma?",
+                "What symptoms are associated with colon adenocarcinoma?"
+            ],
+            "responses" : [
+                "Symptoms of colon cancer can include frequent diarrhea or constipation, blood in the stool, rectal bleeding, ongoing discomfort in the belly area, such as cramps, gas or pain, weakness or tiredness, or losing weight without trying.",
+                "Colon cancer symptoms might encompass frequent bouts of diarrhea or constipation, presence of blood in stool, rectal bleeding, continual discomfort in the abdominal region marked by cramps, gas, or pain, sensations of weakness or fatigue, and unexplained weight loss.",
+                "Signs indicative of colon cancer can involve regular occurrences of diarrhea or constipation, blood in stool, rectal bleeding, persistent discomfort in the abdomen manifested by cramps, gas, or pain, sensations of weakness or fatigue, and unintentional weight loss."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "treatment_options",
+            "patterns" : [
+                "What are the typical ways colon cancer is treated?",
+                "What treatment options are available for colon adenocarcinoma?",
+                "What are the typical ways colon cancer is treated?"
+            ],
+            "responses" : [
+                "Seven types of standard treatment are used: Surgery, Radiofrequency ablation, Cryosurgery, Chemotherapy, Radiation therapy, Targeted therapy and Immunotherapy",
+                "There are seven primary treatment options: Surgery, Radiofrequency ablation, Cryosurgery, Chemotherapy, Radiation therapy, Targeted therapy, and Immunotherapy.",
+                "There are Seven standard treatment approaches to treat colon cancer. These are: Surgery, Radiofrequency ablation, Cryosurgery, Chemotherapy, Radiation therapy, Targeted therapy, and Immunotherapy."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "lifestyle_changes",
+            "patterns" : [
+                "What changes should I adopt to recover quickly?",
+                "How can I change my lifestyle to a healthy one?",
+                "Can you suggest some ways in which I can live in a healthy manner?"
+            ],
+            "responses" : [
+                "Simple lifestyle changes that can help your colon cancer treatment are: Stop smoking, limit alcohol intake, eat a helathy diet, exercise regularly and maintain a healthy weight.",
+                "Basic lifestyle adjustments that may aid in treating colon cancer include quitting smoking, reducing alcohol consumption, adopting a nutritious diet, engaging in regular physical activity, and managing weight effectively.",
+                "Minor lifestyle alterations that can support colon cancer treatment involve ceasing smoking, limiting alcohol intake, embracing a nutritious diet, engaging in routine exercise, and maintaining a healthy weight."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "prevention",
+            "patterns" : [
+                "How can I prevent colon adenocarcinoma?",
+                "What can I do to lower my risk of colon cancer?",
+                "What are some strategies for reducing the chances of developing colon cancer?"
+            ],
+            "responses" : [
+                "Colon adenocarcinoma can be prevented by incorporating the following things in your life. Getting regular screening tests for colon cancer is the single best way to protect yourself from the disease. Be physically active. Drinking even low amounts of alcohol can raise the risk of colon cancer. Limit excessive intake of red meat like steak, hamburger and pork. Eat a diet rich in whole grains and fiber. Get enough calcium and vitamin D.",
+                "To prevent colon adenocarcinoma, it's crucial to adopt specific lifestyle adjustments. Regular colon cancer screening emerges as the foremost measure to shield yourself from this condition. Maintain an active lifestyle. Even small quantities of alcohol intake can heighten the risk of colon cancer. Control your consumption of red meats like steak, hamburger, and pork. Embrace a dietary regimen abundant in whole grains and fiber. Ensure sufficient intake of calcium and vitamin D.",
+                "Incorporating certain practices into your daily routine can help prevent colon adenocarcinoma. Prioritize regular screening tests for colon cancer as the primary defense against this illness. Keep physically active. Even minimal alcohol consumption can increase susceptibility to colon cancer. Moderate your intake of red meat, including steak, hamburger, and pork. Embrace a diet rich in whole grains and fiber. Maintain adequate levels of calcium and vitamin D."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "duration",
+            "patterns" : [
+                "How long does it take to completely treat colon adenocarcinoma?",
+                "What is the expected duration of the treatment process for colon adenocarcinoma?",
+                "How long should I need to undergo treatment before colon adenocarcinoma is completely resolved?"
+            ],
+            "responses" : [
+                "Adjuvant or neoadjuvant chemo is often given for a total of 3 to 6 months, depending on the drugs used. The length of treatment for advanced colorectal cancer depends on how well it is working and what side effects you have.",
+                "Depending on the chemotherapy drugs utilized, adjuvant or neoadjuvant therapy typically extends over a period of 3 to 6 months. The duration of treatment for advanced colorectal cancer is contingent upon its effectiveness and any associated side effects.",
+                "Typically, adjuvant or neoadjuvant chemotherapy is administered for a span of 3 to 6 months, depending on the particular drugs employed. The duration of treatment for advanced colorectal cancer is customized based on treatment efficacy and the occurrence of adverse reactions."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "side_effects",
+            "patterns" : [
+                "What are the possible side effects associated with colon adenocarcinoma?",
+                "Could you list the common side effects of colon adenocarcinoma?",
+                "Are there any adverse effects that typically accompany colon adenocarcinoma?",
+                "What are the usual side effects seen in patients diagnosed with colon adenocarcinoma?",
+                "Can you tell me about the complications or side effects of colon adenocarcinoma?",
+                "What physical or health issues might arise due to colon adenocarcinoma?"
+            ],
+            "responses" : [
+                "Some people with colon adenocarcinoma may have long-lasting trouble with chronic diarrhea, going to the bathroom frequently, or not being able to hold their stool. Some may also have problems with numbness or tingling in their fingers and toes (peripheral neuropathy) from chemo they received.",
+                "Certain individuals diagnosed with colon adenocarcinoma might experience persistent challenges such as chronic diarrhea, frequent restroom visits, or difficulty controlling bowel movements. Additionally, they may encounter peripheral neuropathy, characterized by numbness or tingling sensations in their fingers and toes, resulting from chemotherapy treatment.",
+                "Colon adenocarcinoma patients may endure prolonged issues such as chronic diarrhea, frequent urination, or fecal incontinence. Additionally, they might encounter peripheral neuropathy, leading to sensations of numbness or tingling in their extremities due to chemotherapy.",
+                "Individuals afflicted with colon adenocarcinoma could face ongoing difficulties such as chronic diarrhea, frequent bowel movements, or fecal incontinence. Furthermore, they may experience peripheral neuropathy, characterized by tingling or numbness in their hands and feet as a consequence of chemotherapy treatment."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "second_cancer",
+            "patterns" : [
+                "Could I get a second cancer after colon cancer treatment?",
+                "Is there a risk of developing a second cancer following treatment for colon cancer?",
+                "Are there chances of experiencing a second cancer after completing treatment for colon cancer?"
+            ],
+            "responses" : [
+                "People who have had colon cancer can still get other cancers. In fact, colon cancer survivors are at higher risk for getting another colon cancer, as well as some other types of cancer.",
+                "Even after battling colon cancer, individuals are still susceptible to other cancer types. Interestingly, those who have survived colon cancer are at a heightened risk of experiencing a second bout of colon cancer, in addition to certain other cancer forms.",
+                "Those who have been afflicted with colon cancer are not immune to the possibility of contracting different cancers. Notably, survivors of colon cancer are more prone to a recurrence of colon cancer and several other cancer varieties."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "diet_plan",
+            "patterns" : [
+                "What diet should be followed by someone who is diagnosed with colon adenocarcinoma?",
+                "Can you provide recommendations on the ideal diet for individuals diagnosed with colon adenocarcinoma?",
+                "How should someone with colon adenocarcinoma adjust their diet to support their health?"
+            ],
+            "responses" : [
+                "Electrolytes, like potassium, magnesium, sodium and calcium, are essential minerals that help your body maintain the appropriate balance of fluids. Good sources of electrolytes are green leafy vegetables like lettuce and kale; fruits like watermelon, bananas and avocados; and potatoes, beans, almonds and peanuts. Proteins help the immune system fight infection and help the body repair tissues after surgery, chemotherapy or radiation. Whole-grain flour, brown rice, fruit, vegetables, nuts, seeds and legumes like lentils and black beans are all good sources of dietary fiber. Adequate hydration is crucial during and after treatment.",
+                "Essential minerals like potassium, magnesium, sodium, and calcium, known as electrolytes, are crucial for maintaining the proper fluid balance within the body. Rich sources of electrolytes include green leafy vegetables such as lettuce and kale, fruits like watermelon, bananas, and avocados, and dietary staples like potatoes, beans, almonds, and peanuts. Proteins play a pivotal role in fortifying the immune system against infections and facilitating tissue repair post medical interventions like surgery, chemotherapy, or radiation. Incorporating whole-grain flour, brown rice, fruits, vegetables, nuts, seeds, and legumes like lentils and black beans into your diet ensures an adequate intake of dietary fiber. It's essential to maintain proper hydration levels during and after treatment.",
+                "Potassium, magnesium, sodium, and calcium, classified as electrolytes, are indispensable minerals essential for regulating bodily fluid balance. Nutrient-rich sources of electrolytes include green leafy vegetables like lettuce and kale, fruits such as watermelon, bananas, and avocados, as well as dietary staples like potatoes, beans, almonds, and peanuts. Proteins are integral for fortifying the immune system against infections and facilitating tissue repair post medical procedures like surgery, chemotherapy, or radiation. To meet the body's dietary fiber requirements, one should consume foods like whole-grain flour, brown rice, fruits, vegetables, nuts, seeds, and legumes like lentils and black beans. Adequate hydration is critical throughout the treatment process and post-treatment recovery."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "stages",
+            "patterns" : [
+                "What are the stages of colon cancer?",
+                "Can you provide information on the different stages of colon cancer?",
+                "Can you break down the stages of colon cancer and what each stage entails?"
+            ],
+            "responses" : [
+                "The earliest stage of colon cancers is called stage 0 (a very early cancer), and then range from stages I (1) through IV (4). As a rule, the lower the number, the less the cancer has spread. A higher number, such as stage IV, means cancer has spread more. And within a stage, an earlier letter means a lower stage.",
+                "Colon cancers begin at stage 0, the earliest phase, and progress through stages I (1) to IV (4). Generally, lower stage numbers signify less spread of cancer, whereas higher numbers, like stage IV, indicate more extensive spread. Additionally, within each stage, earlier letters denote lower stages."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "survival_rate",
+            "patterns" : [
+                "What is the survival rate of colon cancer?",
+                "What is the prognosis for colon cancer?",
+                "What are the chances of surviving colon cancer?"
+            ],
+            "responses" : [
+                "The 5-year relative survival rate for localized stage colon cancer is 91%. About 37% of patients are diagnosed at this early stage. If the cancer has spread to surrounding tissues or organs and/or the regional lymph nodes, the 5-year relative survival rate is 73%.",
+                "For individuals with localized stage colon cancer, the 5-year relative survival rate is 91%, representing a significant proportion of patients diagnosed early at around 37%. Conversely, if the cancer has advanced to affect surrounding tissues, organs, or regional lymph nodes, the 5-year relative survival rate drops to 73%.",
+                "The 5-year relative survival rate for localized stage colon cancer reaches 91%, with about 37% of patients being diagnosed during this early stage. However, if the cancer has metastasized to surrounding tissues, organs, or regional lymph nodes, the 5-year relative survival rate declines to 73%."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "long_term_effects",
+            "patterns" : [
+                "What are the long term effects of colon adenocarcinoma?",
+                "Can you elaborate on the potential long-lasting impacts of colon adenocarcinoma?",
+                "What are the enduring consequences that individuals may face after battling colon adenocarcinoma?"
+            ],
+            "responses" : [
+                "Although cancer doesn't have to define you, the disease changes your life in a number of ways. You’ll have to deal with the immediate and long-term physical effects of treatment, ongoing screening and monitoring, new concerns about staying healthy and a wide range of emotions. The long-term effects may include fatigue, peripheral neuropathy, bowel changes, urinary problems, or difficulties with sexual health or intimacy.0",
+                "While cancer doesn't have to be your sole identity, it undoubtedly alters various aspects of your life. Managing both immediate and lasting physical repercussions of treatment, continuous screenings, and the vigilance of monitoring, alongside newfound concerns about maintaining well-being, brings forth a spectrum of emotions. Persisting effects may encompass fatigue, peripheral neuropathy, alterations in bowel function, urinary complications, or challenges relating to sexual health and intimacy.",
+                "Cancer need not define your entirety, yet its presence brings about significant changes. Coping with the immediate and enduring physical impacts of treatment, ongoing screenings, and the necessity for constant monitoring, as well as newfound anxieties regarding health maintenance, elicits a multitude of emotions. Long-term consequences might entail fatigue, peripheral neuropathy, shifts in bowel patterns, urinary issues, or struggles pertaining to sexual health and intimacy."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "exercises",
+            "patterns" : [
+                "What exercises help better deal with colon cancer?",
+                "Can you recommend exercises that help in dealing with colon cancer?",
+                "How does regular exercise contribute to better management of colon cancer?"
+            ],
+            "responses" : [
+                "High intensity interval training (HIIT), where you alternate short bouts of go-all-out exercise with low-intensity exercise or rest periods are found to be helpful. The Journal of Physiology found that HIIT increased inflammation immediately after exercise, which is thought to be involved in reducing the number of cancer cells.",
+                "Incorporating high-intensity interval training (HIIT) into your workout routine, characterized by alternating short bursts of intense exercise with periods of low-intensity activity or rest, has been shown to be advantageous. According to findings published in The Journal of Physiology, HIIT leads to an immediate rise in inflammation following exercise, which may play a role in diminishing the presence of cancer cells.",
+                "High-intensity interval training (HIIT) involves short intervals of vigorous exercise interspersed with periods of low-intensity exercise or rest, and it has been demonstrated to be beneficial. Recent research reported in The Journal of Physiology suggests that HIIT induces an increase in inflammation immediately after exercise, potentially aiding in the reduction of cancer cell proliferation."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "psychological_impact",
+            "patterns" : [
+                "What is the emotional or psychological impact of being diagnosed with colon cancer?",
+                "How does a diagnosis of colon cancer affect someone emotionally and psychologically?",
+                "What are the common emotional responses people have when they find out they have colon cancer?"
+            ],
+            "responses" : [
+                "Up to 35% of colon cancer patients may undergo a colostomy, elevating the risk of facing social seclusion, body image insecurities, intimacy hurdles, and strain in marital bonds. The primary concerns expressed by colorectal cancer patients concerning their quality of life typically involve emotional distress, diminished energy levels, sexual dysfunction, bowel issues, and dissatisfaction with physical appearance. Psychological distress and compromised quality of life in colorectal cancer patients are often linked to inadequate social support, pessimistic outlooks, negative evaluations of the illness's threat, diagnosis of rectal cancer, advanced disease stages, and the presence of a permanent stoma.",
+                "Around 35% of individuals diagnosed with colon cancer may find themselves needing a colostomy, leading to heightened chances of feeling socially isolated, grappling with body image concerns, encountering intimacy issues, and experiencing strain in marital relationships. Among colorectal cancer patients, the most frequently reported worries regarding quality of life encompass emotional challenges, diminished vitality, sexual difficulties, bowel irregularities, and dissatisfaction with body appearance. Factors contributing to psychological distress and diminished quality of life in colorectal cancer patients encompass limited social backing, low levels of optimism, negative perceptions of threat, diagnosis of rectal cancer, advanced disease stage, and the presence of a permanent stoma.",
+                "Approximately 35% of individuals diagnosed with colon cancer may necessitate a colostomy, heightening the likelihood of experiencing social isolation, body image challenges, intimacy difficulties, and strain within marital relationships. Among colorectal cancer patients, the most prevalent concerns related to their quality of life encompass emotional distress, reduced energy levels, sexual dysfunction, bowel irregularities, and dissatisfaction with physical appearance. Risk factors contributing to psychological distress and diminished quality of life in colorectal cancer patients consist of limited social support, pessimistic attitudes, negative assessments of illness severity, diagnosis of rectal cancer, advanced disease stages, and the presence of a permanent stoma."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "psychologists",
+            "patterns" : [
+                "How do psychologists help in overcoming the emotional stress caused by colon adenocarcinoma?",
+                "What role do psychologists play in alleviating the emotional strain associated with colon adenocarcinoma?",
+                "In what ways do psychologists assist individuals in coping with the emotional distress brought on by colon adenocarcinoma?"
+            ],
+            "responses" : [
+                "Psychologists have the ability to employ different assessment tools and interview techniques to evaluate psychological distress, coping mechanisms, perceived threat, and social support, all of which contribute to the quality of life experienced by individuals with colorectal cancer. Their role extends to aiding patients in managing symptoms of depression and anxiety, as well as assisting families in navigating the challenges of caregiving and bereavement. Research indicates that a range of psychological interventions, such as cognitive-behavioral therapy, relaxation exercises, and group therapy, can effectively alleviate psychological distress while enhancing self-esteem, optimism, social interaction, and self-efficacy among colorectal cancer patients.",
+                "By employing diverse diagnostic measures and interviewing techniques, psychologists can evaluate psychological distress, coping strategies, threat appraisal, and social support among individuals with colorectal cancer, factors that significantly impact their quality of life. Beyond addressing symptoms of depression and anxiety, psychologists offer valuable support to families dealing with the challenges of caregiving and bereavement. Research consistently demonstrates the efficacy of psychological interventions, such as cognitive-behavioral therapy, relaxation training, and group therapy, in reducing psychological distress and improving self-esteem, optimism, social functioning, and self-efficacy among colorectal cancer patients.",
+                "Utilizing various diagnostic instruments and interviewing techniques, psychologists play a vital role in evaluating the psychological well-being of colorectal cancer patients, including their coping strategies, perception of threat, and access to social support, all of which impact their overall quality of life. In addition to helping patients manage symptoms of depression and anxiety, psychologists provide support to families facing the challenges of caregiving and grieving. Research demonstrates that diverse psychological interventions, like cognitive-behavioral therapy, relaxation techniques, and group therapy, have been successful in reducing psychological distress and improving self-esteem, optimism, social functioning, and self-efficacy among individuals with colorectal cancer."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "sources_of_information",
+            "patterns" : [
+                "Where can I find reliable information about colon cancer?",
+                "Can you tell some sources of reliable information about colon cancer?",
+                "Can you recommend trustworthy sources for learning about colon cancer?",
+                "How can I distinguish between reliable and unreliable sources of information about colon cancer?"
+            ],
+            "responses" : [
+                "The following organizations are good resources for information on colon cancer: American Cancer Society -- www.cancer.org/cancer/colon-rectal-cancer.html , Centers for Disease Control and Prevention -- www.cdc.gov/cancer/colorectal/ , Colorectal Cancer Alliance -- www.ccalliance.org , National Cancer Institute -- www.cancer.gov/types/colorectal",
+                "Valuable sources for colon cancer information include: American Cancer Society at www.cancer.org/cancer/colon-rectal-cancer.html , Centers for Disease Control and Prevention at www.cdc.gov/cancer/colorectal/ , Colorectal Cancer Alliance at www.ccalliance.org , National Cancer Institute at www.cancer.gov/types/colorectal"
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "support",
+            "patterns" : [
+                "What are some ways I can support a loved one with colon cancer?",
+                "How can I help someone going through colon cancer treatment?",
+                "Can you suggest practical ways to support a friend with colon cancer?",
+                "How can I emotionally support someone diagnosed with colon cancer?"
+            ],
+            "responses" : [
+                "Supporting someone dealing with colon cancer involves: Scheduling regular phone calls for them, Creating a contingency plan for unforeseen circumstances, Keeping essential contacts readily accessible and Exploring the option of professional assistance if the individual lives alone.",
+                "You can help someone coping with colon cancer in the following ways: Arrange a regular time for calls, Have a plan in place if something goes wrong, Ensure you have all key contacts to hand and If the patient is living alone, consider professional support",
+                "Ways to assist someone managing colon cancer include: Establishing a consistent schedule for phone conversations, Developing a strategy for handling unexpected situations, Keeping important contacts easily available and Evaluating the possibility of professional aid for individuals living independently."
+            ],
+            "context_set" : "colon_cancer"
+        }
+    ]
+}

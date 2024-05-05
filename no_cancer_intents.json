@@ -1,0 +1,237 @@
+{
+    "intents" : [
+        {
+            "tag" : "greetings",
+            "patterns" : [
+                "Hii",
+                "Hello",
+                "Heyy",
+                "Can you help me?"
+            ],
+            "responses" : [
+                "Hello! How may I help you?",
+                "How can I assist you?",
+                "Welcome, what queries do you have?"
+            ],
+            "context_set" : "cancer"
+        },
+        {
+            "tag" : "about_cancer",
+            "patterns" : [
+                "What is cancer?",
+                "Can you give more details about cancer?",
+                "Information about cancer"
+            ],
+            "responses" : [
+                "Cancer is a disease in which some of the body’s cells grow uncontrollably and spread to other parts of the body. These cells may form tumors, which are lumps of tissue. Tumors can be cancerous or not cancerous. Cancerous tumors spread into, or invade, nearby tissues and can travel to distant places in the body to form new tumors.",
+                "Cancer manifests as a condition where certain cells within the body proliferate without restraint and extend to different bodily regions. These cells have the potential to develop into masses of tissue known as tumors, which can either be malignant or benign. Malignant tumors infiltrate neighboring tissues and have the capacity to metastasize, spreading to distant locations within the body to initiate the formation of additional tumors.",
+                "In cancer, there's an aberrant growth and dissemination of specific cells throughout the body. These cells cluster together to create either malignant or benign tumors. Malignant tumors infiltrate surrounding tissues and can migrate to distant sites in the body, giving rise to new tumor growth."
+            ],
+            "context_set" : "cancer"
+        },
+        {
+            "tag" : "about_colon_cancer",
+            "patterns" : [
+                "What is colon cancer?",
+                "What is colon adenocarcinoma?",
+                "Can you give more details about colon adenocarcinoma?",
+                "Information about colon adenocarcinoma"
+            ],
+            "responses" : [
+                "Colon cancer is a disease in which malignant (cancer) cells form in the tissues of the colon. Sometimes abnormal growths, called polyps, form in the colon or rectum. Over time, some polyps may turn into cancer.",
+                "The condition known as colon adenocarcinoma arises when cancer cells proliferate within the tissues of the colon, frequently accompanied by the presence of polyps in the colon or rectum, some of which may undergo malignant transformation.",
+                "Malignant growths within the colon tissue characterize colon cancer, often preceded by the emergence of polyps in the colon or rectum, which have the potential to transition into cancerous cells with the passage of time.",
+                "The onset of colon adenocarcinoma involves the formation of malignant cells within the colon tissue, often accompanied by the development of polyps in the colon or rectum, which can evolve into cancerous lesions over time."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "about_lung_adenocarcinoma",
+            "patterns" : [
+                "What is lung adenocarcinoma?",
+                "What is lung adenocarcinoma?",
+                "Can you give more details about lung adenocarcinoma?",
+                "Information about lung adenocarcinoma"
+            ],
+            "responses" : [
+                "Adenocarcinoma of the lung usually evolves from the mucosal glands and represents about 40% of all lung cancers. It is the most common subtype to be diagnosed in people who have never smoked. Lung adenocarcinoma usually occurs in the lung periphery, and in many cases, may be found in scars or areas of chronic inflammation.",
+                "Lung adenocarcinoma typically originates from mucosal glands and accounts for approximately 40% of lung cancer cases, often detected in individuals with no smoking history. It predominantly develops in the outer regions of the lungs and can frequently manifest within scars or regions affected by persistent inflammation.",
+                "Originating from mucosal glands, adenocarcinoma of the lung constitutes around 40% of lung cancer diagnoses, particularly prevalent among non-smokers. Typically situated in the lung periphery, this subtype is frequently detected in areas of chronic inflammation or scar tissue."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "about_lung_squamous_cell_carcinoma",
+            "patterns" : [
+                "What is lung squamous cell carcinoma?",
+                "What is lung squamous cell carcinoma?",
+                "Can you give more details about lung squamous cell carcinoma?",
+                "Information about lung squamous cell carcinoma"
+            ],
+            "responses" : [
+                "Squamous cell carcinoma (SCC) of the lung, also known as squamous cell lung cancer, is a type of non-small cell lung cancer (NSCLC). Squamous cell lung tumors often occur in the central part of the lung or the main airway, such as the left or right bronchus.",
+                "Squamous cell lung cancer, medically termed as squamous cell carcinoma (SCC) of the lung, is categorized under non-small cell lung cancer (NSCLC). Typically, these tumors manifest in the central regions of the lung or primary air passages, like the left or right bronchus.",
+                "Squamous cell carcinoma (SCC) of the lung, commonly referred to as squamous cell lung cancer, belongs to the non-small cell lung cancer (NSCLC) group. The tumors associated with squamous cell lung cancer are often found in the central portions of the lung or the principal airways, including the left or right bronchus."
+            ],
+            "context_set" : "lung_squamous_cell_carcinoma"
+        },
+        {
+            "tag" : "colon_adenocarcinoma_symptoms",
+            "patterns" : [
+                "What are the common symptoms of colon adenocarcinoma?",
+                "Can you list the usual symptoms of colon adenocarcinoma?",
+                "Can you describe the typical symptoms people experience when they have colon adenocarcinoma?",
+                "What symptoms are associated with colon adenocarcinoma?"
+            ],
+            "responses" : [
+                "Symptoms of colon cancer can include frequent diarrhea or constipation, blood in the stool, rectal bleeding, ongoing discomfort in the belly area, such as cramps, gas or pain, weakness or tiredness, or losing weight without trying.",
+                "Colon cancer symptoms might encompass frequent bouts of diarrhea or constipation, presence of blood in stool, rectal bleeding, continual discomfort in the abdominal region marked by cramps, gas, or pain, sensations of weakness or fatigue, and unexplained weight loss.",
+                "Signs indicative of colon cancer can involve regular occurrences of diarrhea or constipation, blood in stool, rectal bleeding, persistent discomfort in the abdomen manifested by cramps, gas, or pain, sensations of weakness or fatigue, and unintentional weight loss."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "lung_adenocarcinoma_symptoms",
+            "patterns" : [
+                "What are the common symptoms of lung adenocarcinoma?",
+                "Can you list the usual symptoms of lung adenocarcinoma?",
+                "Can you describe the typical symptoms people experience when they have lung adenocarcinoma?",
+                "What symptoms are associated with lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Common symptoms of lung adenocarcinoma are: A cough that does not go away or gets worse, Coughing up blood or red phlegm, Difficulty breathing, Chest pain, which can be worsened by deep breathing, coughing, or laughing, Hoarseness when speaking, Recurring lung infections, like bronchitis or pneumonia and Wheezing without history of asthma.",
+                "Signs commonly associated with lung adenocarcinoma include: Persistent coughing that doesn't improve or worsens, Coughing up blood or reddish sputum, Difficulty breathing, Chest pain that intensifies with deep breaths, coughing, or laughter, Changes in voice tone, characterized by hoarseness, Repeated lung infections, like bronchitis or pneumonia and Wheezing in the absence of asthma history.",
+                "Common indications of lung adenocarcinoma comprise: Chronic coughing that persists or deteriorates, Spitting up blood or reddish mucus, Difficulty in breathing, Chest pain exacerbated by deep inhalation, coughing, or laughter, Hoarseness during speech, Recurrent lung infections, such as bronchitis or pneumonia and Wheezing without a history of asthma."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "lung_squamous_cell_carcinoma_symptoms",
+            "patterns" : [
+                "What are the common symptoms of lung squamous cell carcinoma?",
+                "Can you list the usual symptoms of lung squamous cell carcinoma?",
+                "Can you describe the typical symptoms people experience when they have lung squamous cell carcinoma?",
+                "What symptoms are associated with lung squamous cell carcinoma?"
+            ],
+            "responses" : [
+                "Early on, squamous cell lung cancer may have no symptoms. If symptoms occur, they may include: a cough that doesn't go away, coughing up blood or mucus, shortness of breath or trouble breathing, discomfort when swallowing, chest pain, fever and high levels of calcium in the blood.",
+                "In the initial stages, squamous cell lung cancer might manifest without any noticeable symptoms. However, if symptoms do emerge, they could comprise: Persistent coughing, Expectorating blood or mucus, Difficulty breathing or shortness of breath, Discomfort during swallowing, Chest pains, Fever and Elevated calcium levels in the bloodstream.",
+                "At the outset, squamous cell lung cancer may present itself asymptomatically. Nevertheless, should symptoms arise, they might encompass: Persistent coughing that persists, Coughing up blood or mucus, Difficulty breathing or shortness of breath, Discomfort while swallowing, Chest discomfort, Fever and Elevated blood calcium levels."
+            ],
+            "context_set" : "lung_squamous_cell_carcinoma"
+        },
+        {
+            "tag" : "colon_adenocarcinoma_prevention",
+            "patterns" : [
+                "How can I prevent colon adenocarcinoma?",
+                "What can I do to lower my risk of colon cancer?",
+                "What are some strategies for reducing the chances of developing colon cancer?"
+            ],
+            "responses" : [
+                "Colon adenocarcinoma can be prevented by incorporating the following things in your life. Getting regular screening tests for colon cancer is the single best way to protect yourself from the disease. Be physically active. Drinking even low amounts of alcohol can raise the risk of colon cancer. Limit excessive intake of red meat like steak, hamburger and pork. Eat a diet rich in whole grains and fiber. Get enough calcium and vitamin D.",
+                "To prevent colon adenocarcinoma, it's crucial to adopt specific lifestyle adjustments. Regular colon cancer screening emerges as the foremost measure to shield yourself from this condition. Maintain an active lifestyle. Even small quantities of alcohol intake can heighten the risk of colon cancer. Control your consumption of red meats like steak, hamburger, and pork. Embrace a dietary regimen abundant in whole grains and fiber. Ensure sufficient intake of calcium and vitamin D.",
+                "Incorporating certain practices into your daily routine can help prevent colon adenocarcinoma. Prioritize regular screening tests for colon cancer as the primary defense against this illness. Keep physically active. Even minimal alcohol consumption can increase susceptibility to colon cancer. Moderate your intake of red meat, including steak, hamburger, and pork. Embrace a diet rich in whole grains and fiber. Maintain adequate levels of calcium and vitamin D."
+            ],
+            "context_set" : "colon_cancer"
+        },
+        {
+            "tag" : "lung_adenocarcinoma_prevention",
+            "patterns" : [
+                "How can I prevent lung adenocarcinoma?",
+                "What can I do to lower my risk of lung adenocarcinoma?",
+                "What are some strategies for reducing the chances of developing lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Lung adenocarcinoma can be prevented by following the given preventive measures:  annual screening for lung cancer with low-dose computed tomography in adults ages 50 to 80 years, quit smoking, avoid being the victim of second hand smoke, Reduce exposure to radon by having your home checked for radon gas, Reduce exposure to asbestos and Follow health and safety guidelines to avoid carcinogens.",
+                "To prevent lung adenocarcinoma, it is advisable to adopt certain preventive measures. These include undergoing annual lung cancer screening using low-dose computed tomography if you are between 50 and 80 years old, quitting smoking, steering clear of secondhand smoke, checking your home for radon gas and minimizing exposure, reducing contact with asbestos, and following health and safety guidelines to minimize exposure to carcinogens.",
+                "Preventing lung adenocarcinoma involves adhering to specific preventive strategies. These encompass undergoing annual low-dose computed tomography screening for lung cancer if you're aged 50 to 80, ceasing smoking, avoiding exposure to secondhand smoke, mitigating radon exposure by testing your home, minimizing asbestos exposure, and following health and safety recommendations to limit contact with carcinogens."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "lung_squamous_cell_carcinoma_prevention",
+            "patterns" : [
+                "How can I prevent lung squamous cell carcinoma?",
+                "What can I do to lower my risk of lung squamous cell carcinoma?",
+                "What are some strategies for reducing the chances of developing lung squamous cell carcinoma?"
+            ],
+            "responses" : [
+                "Lung squamous cell carcinoma can be prevented by following the given preventive measures:  annual screening for lung cancer with low-dose computed tomography in adults ages 50 to 80 years, quit smoking, avoid being the victim of second hand smoke, Reduce exposure to radon by having your home checked for radon gas, Reduce exposure to asbestos and Follow health and safety guidelines to avoid carcinogens.",
+                "To prevent lung squamous cell carcinoma, it is advisable to adopt certain preventive measures. These include undergoing annual lung cancer screening using low-dose computed tomography if you are between 50 and 80 years old, quitting smoking, steering clear of secondhand smoke, checking your home for radon gas and minimizing exposure, reducing contact with asbestos, and following health and safety guidelines to minimize exposure to carcinogens.",
+                "Preventing lung squamous cell carcinoma involves adhering to specific preventive strategies. These encompass undergoing annual low-dose computed tomography screening for lung cancer if you're aged 50 to 80, ceasing smoking, avoiding exposure to secondhand smoke, mitigating radon exposure by testing your home, minimizing asbestos exposure, and following health and safety recommendations to limit contact with carcinogens."
+            ],
+            "context_set" : "lung_squamous_cell_carcinoma"
+        },
+        {
+            "tag" : "risk_factors",
+            "patterns" : [
+                "What are the risk factors associated with it?",
+                "Can you list the potential risk factors for cancer?",
+                "What are the known risk elements linked to cancer?"
+            ],
+            "responses" : [
+                "Aging, A personal or family history of cancer, Using tobacco, Carrying too much weight, known as being overweight or obese, Alcohol use, Some types of viral infections, such as human papillomavirus (HPV) and the hepatitis virus, Exposure to specific chemicals and Exposure to radiation, including ultraviolet radiation from the sun are some of the general risk factors for cancer.",
+                "Growing older, a history of cancer within one's family or personal medical records, tobacco consumption, excessive weight, termed as overweight or obesity, alcohol consumption, certain viral infections like human papillomavirus (HPV) and hepatitis, exposure to particular chemicals, and radiation exposure, including UV radiation from sunlight, represent common risk elements associated with cancer.",
+                "The general risk factors for cancer encompass aging, a personal or familial cancer history, tobacco use, excessive weight (referred to as overweight or obesity), alcohol consumption, certain viral infections such as human papillomavirus (HPV) and hepatitis, exposure to specific chemicals, and radiation exposure, including ultraviolet radiation from the sun."
+            ],
+            "context_set" : "cancer"
+        },
+        {
+            "tag" : "lifestyle_changes",
+            "patterns" : [
+                "What changes should I adopt to recover quickly?",
+                "How can I change my lifestyle to a healthy one?",
+                "Can you suggest some ways in which I can live in a healthy manner?"
+            ],
+            "responses" : [
+                "Incorporate the following lifestyle changes: Don't use tobacco, Eat a healthy diet, Maintain a healthy weight and be physically active, Protect yourself from the sun, Get vaccinated and Get regular medical care.",
+                "Implement these lifestyle adjustments: Avoid tobacco usage, Consume nutritious meals, Sustain a balanced weight through exercise, Shield yourself from sunlight, Receive vaccinations, and Attend routine medical check-ups.",
+                "Integrate the subsequent modifications into your lifestyle: Refrain from tobacco use, Adopt a nutritious diet, Manage weight through physical activity, Safeguard against sun exposure, Seek vaccination, and Maintain regular medical appointments."
+            ],
+            "context_set" : "cancer"
+        },
+        {
+            "tag" : "diet_plan",
+            "patterns" : [
+                "What diet should be followed by someone to prevent cancer?",
+                "Can you provide recommendations on the ideal diet for to lead a healthy life?",
+                "How should someone adjust their diet to support their health?"
+            ],
+            "responses" : [
+                "An overall healthy dietary pattern has the potential to lower cancer risk by 10-20%. Limit alcohol consumption, vegetables, fruit, and beans, Limit “fast” foods, Limit red and processed meat, Limit sugar-sweetened drinks. Eat a diet rich in whole grains. Make whole grains, vegetables, fruit, and pulses (legumes) such as beans and lentils a major part of your daily diet.",
+                "Adopting a generally wholesome eating regimen may reduce the likelihood of developing cancer by approximately 10-20%. Cut down on alcohol intake, increase consumption of vegetables, fruits, and legumes while limiting processed foods, red meat, and sugary beverages. Prioritize whole grains in your diet to enhance overall health.",
+                "Following a well-balanced diet has the potential to decrease cancer risk by 10-20%. Reduce alcohol consumption and prioritize the intake of vegetables, fruits, and legumes, while minimizing the consumption of fast foods, red meat, and sugary drinks. Incorporate whole grains into your daily meals for improved health outcomes."
+            ],
+            "context_set" : "cancer"
+        },
+        {
+            "tag" : "sources_of_information",
+            "patterns" : [
+                "Where can I find reliable information about cancer?",
+                "Can you tell some sources of reliable information about cancer?",
+                "Can you recommend trustworthy sources for learning about cancer?",
+                "How can I distinguish between reliable and unreliable sources of information about cancer?"
+            ],
+            "responses" : [
+                "The following organizations are good resources for information on colon cancer: National Cancer Institute -- https://www.cancer.gov/ , National Comprehensive Cancer Network -- https://www.nccn.org/ , MedlinePlus -- https://medlineplus.gov/cancer.html , American Cancer Society (ACS) -- https://www.cancer.org/",
+                "Valuable sources for colon cancer information include: National Cancer Institute -- https://www.cancer.gov/ , National Comprehensive Cancer Network -- https://www.nccn.org/ , MedlinePlus -- https://medlineplus.gov/cancer.html , American Cancer Society (ACS) -- https://www.cancer.org/"
+            ],
+            "context_set" : "cancer"
+        },
+        {
+            "tag" : "support",
+            "patterns" : [
+                "What are some ways I can support a loved one with cancer?",
+                "How can I help someone going through cancer treatment?",
+                "Can you suggest practical ways to support a friend with cancer?",
+                "How can I emotionally support someone diagnosed with cancer?"
+            ],
+            "responses" : [
+                "Supporting someone dealing with colon cancer involves: Scheduling regular phone calls for them, Creating a contingency plan for unforeseen circumstances, Keeping essential contacts readily accessible and Exploring the option of professional assistance if the individual lives alone.",
+                "You can help someone coping with colon cancer in the following ways: Arrange a regular time for calls, Have a plan in place if something goes wrong, Ensure you have all key contacts to hand and If the patient is living alone, consider professional support",
+                "Ways to assist someone managing colon cancer include: Establishing a consistent schedule for phone conversations, Developing a strategy for handling unexpected situations, Keeping important contacts easily available and Evaluating the possibility of professional aid for individuals living independently."
+            ],
+            "context_set" : "cancer"
+        }
+    ]
+}

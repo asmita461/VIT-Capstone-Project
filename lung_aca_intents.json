@@ -1,0 +1,288 @@
+{
+    "intents" : [
+        {
+            "tag" : "greetings",
+            "patterns" : [
+                "Hii",
+                "Hello",
+                "Heyy",
+                "Can you help me?"
+            ],
+            "responses" : [
+                "Hello! How may I help you?",
+                "How can I assist you?",
+                "Welcome, what queries do you have?"
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "about",
+            "patterns" : [
+                "What is lung adenocarcinoma?",
+                "What is lung adenocarcinoma?",
+                "Can you give more details about lung adenocarcinoma?",
+                "Information about lung adenocarcinoma"
+            ],
+            "responses" : [
+                "Adenocarcinoma of the lung usually evolves from the mucosal glands and represents about 40% of all lung cancers. It is the most common subtype to be diagnosed in people who have never smoked. Lung adenocarcinoma usually occurs in the lung periphery, and in many cases, may be found in scars or areas of chronic inflammation.",
+                "Lung adenocarcinoma typically originates from mucosal glands and accounts for approximately 40% of lung cancer cases, often detected in individuals with no smoking history. It predominantly develops in the outer regions of the lungs and can frequently manifest within scars or regions affected by persistent inflammation.",
+                "Originating from mucosal glands, adenocarcinoma of the lung constitutes around 40% of lung cancer diagnoses, particularly prevalent among non-smokers. Typically situated in the lung periphery, this subtype is frequently detected in areas of chronic inflammation or scar tissue."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "curable",
+            "patterns" : [
+                "Can we treat lung adenocarcinoma?",
+                "Is it possible to recover from lung adenocarcinoma?",
+                "Can we beat lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Yes, lung adenocarcinoma can be treated and one can fully recover from it.",
+                "Lung adenocarcinoma is curable. With proper treatment, one can overcome this disease."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "risk_factors",
+            "patterns" : [
+                "What are the risk factors associated with it?",
+                "Can you list the potential risk factors for lung adenocarcinoma?",
+                "What are the known risk elements linked to lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "A family history of lung cancer, prior radiation therapy in the chest area and beta carotene supplements are some of the risk factors. Other adenocarcinoma risk factors include exposure to: Secondhand smoke, Radon, Asbestos, Silica, Diesel exhaust, Air pollution and Other chemicals.",
+                "Some factors that increase the risk of adenocarcinoma include a family background of lung cancer, past chest radiation therapy, and the consumption of beta carotene supplements. Exposure to secondhand smoke, radon, asbestos, silica, diesel exhaust, air pollution, and various chemicals are also contributors.",
+                "Adenocarcinoma risk factors encompass a family history of lung cancer, previous chest radiation treatment, and the use of beta carotene supplements. Additionally, exposure to secondhand smoke, radon, asbestos, silica, diesel exhaust, air pollution, and other chemicals heighten the risk."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "symptoms",
+            "patterns" : [
+                "What are the common symptoms of lung adenocarcinoma?",
+                "Can you list the usual symptoms of lung adenocarcinoma?",
+                "Can you describe the typical symptoms people experience when they have lung adenocarcinoma?",
+                "What symptoms are associated with lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Common symptoms of lung adenocarcinoma are: A cough that does not go away or gets worse, Coughing up blood or red phlegm, Difficulty breathing, Chest pain, which can be worsened by deep breathing, coughing, or laughing, Hoarseness when speaking, Recurring lung infections, like bronchitis or pneumonia and Wheezing without history of asthma.",
+                "Signs commonly associated with lung adenocarcinoma include: Persistent coughing that doesn't improve or worsens, Coughing up blood or reddish sputum, Difficulty breathing, Chest pain that intensifies with deep breaths, coughing, or laughter, Changes in voice tone, characterized by hoarseness, Repeated lung infections, like bronchitis or pneumonia and Wheezing in the absence of asthma history.",
+                "Common indications of lung adenocarcinoma comprise: Chronic coughing that persists or deteriorates, Spitting up blood or reddish mucus, Difficulty in breathing, Chest pain exacerbated by deep inhalation, coughing, or laughter, Hoarseness during speech, Recurrent lung infections, such as bronchitis or pneumonia and Wheezing without a history of asthma."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "treatment_options",
+            "patterns" : [
+                "What are the typical ways lung adenocarcinoma is treated?",
+                "What treatment options are available for lung adenocarcinoma?",
+                "What are the typical ways lung adenocarcinoma is treated?"
+            ],
+            "responses" : [
+                "Surgery is the treatment for patients with stage I to stage IIIA adenocarcinoma of the lung. Lobectomy or a pneumonectomy are often performed. Since these patients have a high risk of relapse, adjuvant chemotherapy is now standard.",
+                "Patients diagnosed with stage I to stage IIIA adenocarcinoma of the lung often undergo surgical procedures like lobectomy or pneumonectomy as part of their treatment plan. Recognizing the increased risk of cancer recurrence in these individuals, adjuvant chemotherapy is now commonly administered post-surgery.",
+                "Surgery is the primary therapeutic approach for individuals with adenocarcinoma of the lung in stages I to IIIA, usually involving lobectomy or pneumonectomy. Given the considerable risk of cancer recurrence in this patient population, adjuvant chemotherapy has emerged as a standard course of treatment."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "lifestyle_changes",
+            "patterns" : [
+                "What changes should I adopt to recover quickly?",
+                "How can I change my lifestyle to a healthy one?",
+                "Can you suggest some ways in which I can live in a healthy manner?"
+            ],
+            "responses" : [
+                "Lifestyle changes to be incorporated are: Stop smoking -- Even if you’ve been diagnosed with lung cancer, there are immediate rewards when you quit smoking, Eat well -- Good nutrition is important for lung cancer patients, Be active -- Physical activity can help reduce fatigue, improve mood and maintain a healthy weight, Enlist support -- Beyond your physical health, it’s essential to address your mental health and emotional needs, Manage your care -- Whether it’s you or a caregiver who’s championing your cancer care, it’s important to have someone who is advocating for your needs.",
+                "Recommended lifestyle changes encompass: Ending tobacco use - Even post lung cancer diagnosis, there are immediate advantages upon cessation; Prioritizing nutrition - Quality dietary choices play a vital role in the well-being of lung cancer patients; Embracing physical activity - Exercise helps in combating fatigue, enhancing mood, and controlling weight; Seeking support - Addressing mental and emotional needs is as important as physical health; Coordinating your care - Whether managed by yourself or a caregiver, ensuring someone advocates for your cancer care is essential.",
+                "Lifestyle adjustments to consider include: Ceasing smoking - Despite a lung cancer diagnosis, there are instant benefits upon quitting; Eating nutritiously - Quality nutrition holds significance for lung cancer sufferers; Engaging in physical activity - Exercise aids in lessening fatigue, boosting mood, and managing weight; Seeking assistance - Besides physical well-being, attending to mental and emotional wellness is crucial; Overseeing your treatment - Whether it's yourself or a caregiver overseeing your cancer management, having an advocate for your requirements is vital."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "prevention",
+            "patterns" : [
+                "How can I prevent lung adenocarcinoma?",
+                "What can I do to lower my risk of lung adenocarcinoma?",
+                "What are some strategies for reducing the chances of developing lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Lung adenocarcinoma can be prevented by following the given preventive measures:  annual screening for lung cancer with low-dose computed tomography in adults ages 50 to 80 years, quit smoking, avoid being the victim of second hand smoke, Reduce exposure to radon by having your home checked for radon gas, Reduce exposure to asbestos and Follow health and safety guidelines to avoid carcinogens.",
+                "To prevent lung adenocarcinoma, it is advisable to adopt certain preventive measures. These include undergoing annual lung cancer screening using low-dose computed tomography if you are between 50 and 80 years old, quitting smoking, steering clear of secondhand smoke, checking your home for radon gas and minimizing exposure, reducing contact with asbestos, and following health and safety guidelines to minimize exposure to carcinogens.",
+                "Preventing lung adenocarcinoma involves adhering to specific preventive strategies. These encompass undergoing annual low-dose computed tomography screening for lung cancer if you're aged 50 to 80, ceasing smoking, avoiding exposure to secondhand smoke, mitigating radon exposure by testing your home, minimizing asbestos exposure, and following health and safety recommendations to limit contact with carcinogens."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "duration",
+            "patterns" : [
+                "How long does it take to completely treat lung adenocarcinoma?",
+                "What is the expected duration of the treatment process for lung adenocarcinoma?",
+                "How long should I need to undergo treatment before lung adenocarcinoma is completely resolved?"
+            ],
+            "responses" : [
+                "The duration of treatment for lung adenocarcinoma can vary significantly depending on several factors, including the stage at diagnosis, the individual's overall health, the specific treatment plan chosen, and how the cancer responds to treatment. In some cases, treatment may span several months or even years, particularly if the cancer has metastasized or if adjuvant therapies are necessary to prevent recurrence.",
+                "Treatment duration for lung adenocarcinoma is highly variable and influenced by factors such as the cancer's stage at diagnosis, the patient's general health, the chosen treatment regimen, and the tumor's response to therapy. Depending on these variables, treatment may extend over several months or even years, especially if the cancer has spread or if additional therapies are needed to reduce the risk of recurrence.",
+                "The length of treatment for lung adenocarcinoma can differ significantly based on various factors, including the cancer's stage, the patient's overall well-being, the specific treatment approach selected, and the tumor's reaction to therapy. Treatment duration may extend for several months to years in cases where the cancer has metastasized or when supplementary treatments are required to prevent its return."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "side_effects",
+            "patterns" : [
+                "What are the possible side effects associated with lung adenocarcinoma?",
+                "Could you list the common side effects of lung adenocarcinoma?",
+                "Are there any adverse effects that typically accompany lung adenocarcinoma?",
+                "What are the usual side effects seen in patients diagnosed with lung adenocarcinoma?",
+                "Can you tell me about the complications or side effects of lung adenocarcinoma?",
+                "What physical or health issues might arise due to lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Lung adenocarcinoma patients may experience side effects including anxiety, depression, radiation to the lungs, long-term neuropathy and hearing loss. Radiation to the lungs during treatment can result in cardiac toxicities that cause symptoms of heart failure years later, and the chemotherapy medication Platinol-AQ may cause long-term neuropathy (numbness and tingling pain) or hearing loss.",
+                "Individuals who have overcome lung adenocarcinoma might encounter aftereffects such as anxiety, depression, lung radiation, persistent nerve damage, and diminished hearing ability. Additionally, radiation aimed at the lungs during therapy might induce cardiac complications leading to heart failure symptoms in the future, while Platinol-AQ chemotherapy could trigger enduring nerve damage or hearing impairment.",
+                "Survivors of lung adenocarcinoma may face residual effects like anxiety, depression, lung radiation effects, persistent nerve issues, and diminished hearing. Furthermore, lung radiation during treatment might lead to heart-related problems manifesting as heart failure symptoms down the line, and Platinol-AQ chemotherapy might contribute to lasting nerve damage or hearing loss."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "second_cancer",
+            "patterns" : [
+                "Could I get a second cancer after lung adenocarcinoma treatment?",
+                "Is there a risk of developing a second cancer following treatment for lung adenocarcinoma?",
+                "Are there chances of experiencing a second cancer after completing treatment for lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "People who have had lung adenocarcinoma can still get other cancers. The average risk of developing a second lung cancer in patients who survived small-cell lung cancer is approximately 6% per patient per year. For patients who survived small-cell cancer, the risk increases from approximately 2% to greater than 10% per patient per year 10 years after initial treatment.",
+                "Individuals previously diagnosed with lung adenocarcinoma remain susceptible to developing additional cancers. The likelihood of experiencing a second lung cancer post-survival of small-cell lung cancer stands at around 6% annually per patient. However, this risk escalates over time, soaring from about 2% initially to surpassing 10% annually per patient a decade after the initial treatment.",
+                "Even after overcoming lung adenocarcinoma, individuals are still prone to other cancer types. Following the survival of small-cell lung cancer, there exists an average yearly risk of approximately 6% for developing a subsequent lung cancer per patient. Notably, this risk elevates from roughly 2% initially to exceeding 10% annually per patient a decade after the initial treatment."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "diet_plan",
+            "patterns" : [
+                "What diet should be followed by someone who is diagnosed with lung adenocarcinoma?",
+                "Can you provide recommendations on the ideal diet for individuals diagnosed with lung adenocarcinoma?",
+                "How should someone with lung adenocarcinoma adjust their diet to support their health?"
+            ],
+            "responses" : [
+                "Eat a variety of fruits and vegetables every day. Fruits and vegetables offer the body antioxidants, which can help fight against cancer. Choose protein-rich foods. Protein helps the body to repair cells and tissues. Include whole grain foods such as Oatmeal, Whole wheat breads, Brown rice and Whole grain pastas. Limit sweets and added sugars and stay hydrated.",
+                "Ensure a daily intake of various fruits and vegetables, as they contain antioxidants vital for battling cancer. Prioritize foods rich in protein to support cell and tissue repair. Integrate whole grain options like oatmeal, whole wheat bread, brown rice, and whole grain pasta. Limit sugary items and maintain proper hydration.",
+                "Vary your daily intake of fruits and vegetables to benefit from their cancer-fighting antioxidants. Prioritize protein-rich foods for cell and tissue repair. Choose whole grain options like oatmeal, whole wheat bread, brown rice, and whole grain pasta. Control your consumption of sweets and added sugars, and ensure adequate hydration."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "stages",
+            "patterns" : [
+                "What are the stages of lung adenocarcinoma?",
+                "Can you provide information on the different stages of lung adenocarcinoma?",
+                "Can you break down the stages of lung adenocarcinoma and what each stage entails?"
+            ],
+            "responses" : [
+                "Stage 0 or in situ: In stage 0, the cancer is “in situ” or “in place,” meaning it’s only found in the outer lining of the lung, and it hasn’t grown deeper into or spread outside of the lung. Stage 1: In stage 1, the cancer has formed a small tumor, but it hasn’t spread to any lymph nodes outside the lung. Stage 2: In stage 2, the cancer may or may not have spread farther into the lung or to nearby tissue or lymph nodes, but it hasn’t reached distant lymph nodes or distant parts of the body. Stage 3: In stage 3, the cancer may have spread farther into the lung or nearby tissue or lymph nodes, but it hasn’t reached distant lymph nodes or distant parts of the body. Stage 4: In stage 4, the cancer may have spread to the other lung, nearby fluid, distant lymph nodes or distant organs.",
+                "Stage 0, also known as in situ, signifies that the cancer remains localized within the lung's outer lining and hasn't infiltrated deeper or spread beyond. At stage 1, cancer manifests as a small tumor without extending to lymph nodes beyond the lung. Stage 2 entails the possibility of cancer advancing further within the lung or adjacent tissues or lymph nodes, yet not affecting distant parts of the body. Stage 3 indicates potential progression of cancer into the lung or neighboring tissues or lymph nodes, while still not reaching distant organs or lymph nodes."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "survival_rate",
+            "patterns" : [
+                "What is the survival rate of lung adenocarcinoma?",
+                "What is the prognosis for lung adenocarcinoma?",
+                "What are the chances of surviving lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "It is deadly with overall 5-year survival of 12%.  For Stage 1 disease, 5-year survival varies from 70% to 85%. For locally advanced disease, the survival drops to less than 30%. For distant metastases, less than 5% survive five years.",
+                "The condition has a high fatality rate, with an average 5-year survival of only 12%. Those diagnosed at Stage 1 exhibit survival rates ranging between 70% and 85%. However, for cases classified as locally advanced, survival plummets to below 30%. With distant metastases, the chance of surviving five years drops to less than 5%.",
+                "With an overall 5-year survival rate of just 12%, this illness is often deadly. Survival rates for Stage 1 range from 70% to 85%, but for locally advanced cases, survival dips to less than 30%. When metastasized, the chance of survival beyond five years is less than 5%."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "long_term_effects",
+            "patterns" : [
+                "What are the long term effects of lung adenocarcinoma?",
+                "Can you elaborate on the potential long-lasting impacts of lung adenocarcinoma?",
+                "What are the enduring consequences that individuals may face after battling lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Lung cancer treatment can have several side effects. While the majority of complications occur during treatment cycles (e.g., nausea and vomiting are most common during and immediately after chemotherapy), there are some potential long-term effects as well. Inflammation of lung, loss of lung function , a thickening of the lining of the lungs or difficulty breathing may happen. Cardiotoxicity, or damage to the heart muscle, can also develop after lung cancer treatment. Lung cancer survivors may also experience other heart-related complications, such as hypertension (high blood pressure), arrhythmias (irregular heartbeats) and coronary artery disease.",
+                "Treatment for lung cancer may result in various side effects. While most complications manifest during treatment cycles (e.g., nausea and vomiting are prevalent during and immediately after chemotherapy), there are also potential long-term repercussions. These may include lung inflammation, decreased lung function, lung lining thickening, or respiratory difficulties. Additionally, cardiotoxicity, which is heart muscle damage, can occur post-lung cancer treatment. Survivors may also encounter other heart-related issues like hypertension, arrhythmias, and coronary artery disease.",
+                "Managing lung cancer involves dealing with various side effects. While most complications occur during treatment cycles (like experiencing nausea and vomiting during and right after chemotherapy), there are also potential long-term impacts. These can include lung inflammation, diminished lung function, thickening of lung linings, or difficulties with breathing. Additionally, treatment may lead to cardiotoxicity, causing harm to the heart muscle. Individuals who survive lung cancer may also encounter other heart-related issues, such as hypertension, irregular heartbeats, and coronary artery disease."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "exercises",
+            "patterns" : [
+                "What exercises help better deal with lung adenocarcinoma?",
+                "Can you recommend exercises that help in dealing with lung adenocarcinoma?",
+                "How does regular exercise contribute to better management of lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Diaphragmatic Breathing -- People suffering from lung cancer experience difficulty breathing. This exercise will strengthen the diaphragm, a muscle between the lungs and abdomen. It will allow more air to move in and out without tiring the muscles of the chest. Walking Or Running -- Lung cancer patients have another way to cope with their condition i.e by daily aerobic exercise. This will improve the strength of their heart and oxygen capacity. Stretching -- Stretching increases the flow of blood and oxygen to the muscles, improves muscle elasticity, and helps the body to repair itself. Building your strength -- Strength training can greatly benefit patients of lung cancer. Therapies such as chemotherapy and radiation therapy can weaken the muscles and strength training can help bring it back.",
+                "Diaphragmatic Breathing -- Individuals afflicted with lung cancer often face breathing difficulties. This technique aims to fortify the diaphragm, a muscle situated between the lungs and abdomen. It enhances airflow efficiency, reducing strain on chest muscles. Walking Or Running -- Those battling lung cancer can engage in daily aerobic activities to manage their condition effectively. This regimen enhances cardiac strength and oxygen capacity, aiding in overall wellness. Stretching -- Engaging in stretching exercises amplifies blood and oxygen circulation to muscles, fostering elasticity and facilitating the body's self-repair mechanisms. Building your strength -- Strength training offers substantial advantages for lung cancer patients. Treatments like chemotherapy and radiation therapy may deplete muscle strength, but strength training can aid in its restoration."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "psychological_impact",
+            "patterns" : [
+                "What is the emotional or psychological impact of being diagnosed with lung adenocarcinoma?",
+                "How does a diagnosis of lung adenocarcinoma affect someone emotionally and psychologically?",
+                "What are the common emotional responses people have when they find out they have lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "A lung cancer diagnosis can cause many emotions. A person may experience fear, grief, and uncertainty about their future and the many choices they need to make. With time, these strong emotions can develop into mental health conditions, such as depression, anxiety, post-traumatic stress, and suicidal thoughts. In fact, depression is an ongoing health concern in people with a lung cancer diagnosis. Survivors and caregivers may develop depression as well.",
+                "The diagnosis of lung cancer can trigger a range of emotional responses. Individuals may grapple with fear, sadness, and a sense of uncertainty regarding their path ahead and the decisions they must confront. Over time, these intense emotions might evolve into mental health disorders like depression, anxiety, post-traumatic stress disorder, and thoughts of self-harm. Notably, depression remains a significant health issue for those diagnosed with lung cancer, extending its impact to survivors and those who provide care.",
+                "Upon receiving a diagnosis of lung cancer, individuals may find themselves contending with a whirlwind of emotions. Fear, sorrow, and an unsettling ambiguity about the future and the myriad choices that lie ahead are common experiences. Over time, these potent feelings may manifest into mental health challenges, such as depression, anxiety, post-traumatic stress disorder, and contemplation of suicide. Indeed, managing depression is a persistent concern for individuals facing lung cancer, extending its reach to both survivors and caregivers."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "psychologists",
+            "patterns" : [
+                "How do psychologists help in overcoming the emotional stress caused by lung adenocarcinoma?",
+                "What role do psychologists play in alleviating the emotional strain associated with lung adenocarcinoma?",
+                "In what ways do psychologists assist individuals in coping with the emotional distress brought on by lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "Psychologists offer a safe and supportive environment where individuals can express their feelings, fears, and concerns related to their diagnosis. Cognitive Behavioral Therapy (CBT) techniques are frequently utilized to help patients identify and challenge negative thought patterns and beliefs associated with their illness. Psychologists teach stress reduction techniques such as relaxation exercises, deep breathing, mindfulness, and guided imagery to help patients manage the emotional and physical stressors associated with their diagnosis and treatment. Lung cancer can impact not only the patient but also their loved ones. Psychologists offer family counseling sessions to facilitate open communication, address family dynamics, and provide support for caregivers and family members.",
+                "Psychologists provide a secure and nurturing space where individuals can openly share their emotions, worries, and apprehensions regarding their diagnosis. Cognitive Behavioral Therapy (CBT) methods are commonly employed to assist patients in recognizing and challenging pessimistic thought patterns and beliefs linked to their condition. Stress reduction techniques such as relaxation exercises, deep breathing, mindfulness, and guided imagery are taught by psychologists to aid patients in coping with the emotional and physical strains associated with their diagnosis and treatment. Lung cancer doesn't just affect the patient; it also impacts their loved ones. Psychologists conduct family counseling sessions to encourage honest communication, address family dynamics, and offer support to caregivers and family members.",
+                "Psychologists create a secure and supportive atmosphere for individuals to express their feelings, anxieties, and worries related to their diagnosis. Cognitive Behavioral Therapy (CBT) strategies are commonly used to help patients recognize and challenge negative thought patterns and beliefs associated with their illness. Psychologists educate patients on stress reduction techniques such as relaxation exercises, deep breathing, mindfulness, and guided imagery to assist them in managing the emotional and physical stressors of their diagnosis and treatment. Lung cancer affects not only the patient but also their family members. Psychologists conduct family counseling sessions to foster open communication, address family dynamics, and provide assistance to caregivers and family members."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "sources_of_information",
+            "patterns" : [
+                "Where can I find reliable information about lung adenocarcinoma?",
+                "Can you tell some sources of reliable information about lung adenocarcinoma?",
+                "Can you recommend trustworthy sources for learning about lung adenocarcinoma?",
+                "How can I distinguish between reliable and unreliable sources of information about lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "The following organizations are good resources for information on colon cancer: National Library of Medicine: https://www.ncbi.nlm.nih.gov/books/NBK519578/ , National Cancer Institute -- https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdqa , American Cancer Society -- https://cancer.org/cancer/types/lung-cancer.html",
+                "Valuable sources for colon cancer information include: National Library of Medicine: https://www.ncbi.nlm.nih.gov/books/NBK519578/ , National Cancer Institute -- https://www.cancer.gov/types/lung/hp/non-small-cell-lung-treatment-pdqa , American Cancer Society -- https://cancer.org/cancer/types/lung-cancer.html"
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        },
+        {
+            "tag" : "support",
+            "patterns" : [
+                "What are some ways I can support a loved one with lung adenocarcinoma?",
+                "How can I help someone going through colon lung adenocarcinoma?",
+                "Can you suggest practical ways to support a friend with lung adenocarcinoma?",
+                "How can I emotionally support someone diagnosed with lung adenocarcinoma?"
+            ],
+            "responses" : [
+                "As a caregiver for someone with lung cancer, you may be responsible for helping with basic medical care. This can include: giving medications, helping manage side effects, going to doctor’s appointments with your loved one, communicating with the medical team, keeping a contact list of who to call in an emergency, helping bathe and dress your loved one, participating in palliative care needs.",
+                "If you're caring for a lung cancer patient, your duties may involve administering medications, aiding in symptom management, accompanying them to medical consultations, liaising with healthcare professionals, maintaining an emergency contact list, assisting with personal hygiene, and contributing to palliative care requirements.",
+                "When supporting a loved one with lung cancer, your role might encompass tasks such as administering medication, alleviating side effects, attending medical visits together, liaising with healthcare providers, organizing emergency contacts, aiding in personal grooming, and engaging in palliative care provisions."
+            ],
+            "context_set" : "lung_adenocarcinoma"
+        }
+    ]
+}
